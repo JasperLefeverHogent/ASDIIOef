@@ -1,0 +1,28 @@
+package domein;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PancakeMenuIterator implements MyIterator {
+
+	private List<MenuItem> children = new ArrayList<>();
+	private int pointer = 0;
+	
+	@Override
+	public boolean hasNext() {
+		
+	}
+
+	@Override
+	public Object next() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void remove() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685082183496_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685082183516_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685082491626_3" label="multithreading" name="multithreading">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_JAVA_MUL_InterruptedExample" type="4"/>
+<item elementID="=ASDII_JAVA_MUL_ConsProdMetSyn" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_JAVA_MUL_VoorbeeldSlides_ParallelStream" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_JAVA_MUL_ConsProdMetSyn_ArrayBlockingQueue" type="4"/>
+<item elementID="=ASDII_JAVA_MUL_Callable" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_JAVA_MUL_Teller_Start" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_JAVA_MUL_Jobs_start" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_JAVA_MUL_Zwembad_Start" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_JAVA_MUL_Restaurant_Start" type="4"/>
+<item elementID="=ASDII_JAVA_MUL_Restaurant_Start" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_JAVA_MUL_ConsProdZonderSyn" type="4"/>
+<item elementID="=ASDII_JAVA_MUL_Restaurant_MetArrayBlockingQueue" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_JAVA_MUL_Zwembad_Start2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_JAVA_MUL_Teller_Start2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_JAVA_MUL_Jobs_start2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685288573652_6" label="Factory" name="Factory">
+<item elementID="=ASDII_Factory_FactoryMethod" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_Factory_SimpleFactory" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_Factory_AbstractFactory" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_Factory_DocumentStarter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_GuiAbstractFactoryStarter" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685297873920_7" label="IteratorComposite" name="IteratorComposite">
+<item elementID="=ASDII_Iterator_Start" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_Composite_start" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_GraphicsStarter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_ChannelSurferStarter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_Iterator_java_utilTODO" type="4"/>
+<item elementID="=ASDII_Iterator_java_utilTODO2" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685305878296_8" label="Builder" name="Builder">
+<item elementID="=ASDII_Builder" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_ShapeBuilder" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_AgendaStarter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_MealAppStarter" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685305902125_9" label="Adapter" name="Adapter">
+<item elementID="=ASDII_AdapterPattern" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_AdapterIteratorStarter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_AdapterCalculatorStarter" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685305919289_10" label="Command" name="Command">
+<item elementID="=ASDII_CommandStarter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_DocumentSystemFXStart" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685305937214_11" label="Template Method" name="Template Method">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Template Pattern" type="4"/>
+<item elementID="=ASDII_TemplateMethod_start" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_ProjectOrganizerStarter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_TemplatePatternOef2Starter" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685305964247_12" label="Proxy" name="Proxy">
+<item elementID="=ASDII_VirtualProxy" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_ProxyRemoteClient" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_DynamicProxyStarter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_ProxyRemoteServerStarter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_ProxyPatternFolderStarter" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685305982080_13" label="Singleton" name="Singleton">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Singleton" type="4"/>
+<item elementID="=ASDII_Beyonce_starter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_SingletonPattern" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685305995200_14" label="Losse oef" name="Losse oef">
+<item elementID="=ASDII_PegsStarter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=ASDII_ChannelStarter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_Kindermenu_Starter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_PageSystem_Starter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_FoldersEnFilesStarter" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ASDII_Kindermenu_StarterOef8" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685306026193_15" label="Losse Oef Proxy" name="Losse Oef Proxy">
+<item elementID="=ASDII_StockSystemStarter" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685082184304_2" label="Window Working Set" name="Aggregate for window 1685082184302"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1685288494022_5" label="Window Working Set" name="Aggregate for window 1685288494022"/>
+<mruList name="Losse Oef Proxy"/>
+<mruList name="Losse oef"/>
+<mruList name="Singleton"/>
+<mruList name="Proxy"/>
+<mruList name="Template Method"/>
+</workingSetManager>

@@ -1,0 +1,26 @@
+package domein;
+
+public class Screen {
+
+	private ComponentFactory factory;
+	private List<Label> labels = new ArrayList<>();
+	private List<Button> buttons = new ArrayList<>();
+
+	public Screen(ComponentFactory fact) {
+		this.factory = fact;
+	}
+
+
+    public void addButton() {
+        //TODO
+    }
+
+    public void addLabel() {
+        //TODO
+    }
+
+    public void viewComponents() {
+        //TODO
+    }
+
+}

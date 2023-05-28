@@ -1,0 +1,16 @@
+package domein;
+
+public class Restaurant {
+
+	public Order haalOrderOp() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void plaatsOrder(Order order) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+}

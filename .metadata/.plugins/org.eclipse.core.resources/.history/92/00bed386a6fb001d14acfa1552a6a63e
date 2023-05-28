@@ -1,0 +1,59 @@
+package domein;
+
+import java.security.SecureRandom;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.TimeUnit;
+
+// VUL DE KLASSE VERDER AAN
+public class Tafel {
+
+	private static final SecureRandom generator = new SecureRandom();
+	private boolean vatLeeg = false;
+	private ArrayBlockingQueue<Boolean> emmerbuffer;
+
+	public Tafel(int aantalEmmers) {
+		emmerbuffer = new ArrayBlockingQueue<>(aantalEmmers);
+	}
+
+	public void vulEmmer() {
+		try {
+			Thread.sleep(generator.nextInt(1000));
+			emmerbuffer.put(true);
+			System.out.println("emmer is gevuld");
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public boolean pakEmmer() {
+		//boolean emmergenome = false;
+		//Boolean value;
+		boolean emmer = false;
+		try {
+			emmer = emmerbuffer.take();
+			/*do {
+				value = emmerbuffer.poll(50L, TimeUnit.MILLISECONDS);
+				if (value != null) {
+					emmergenome = true;
+				}
+			} while (!vatLeeg && !emmergenome);*/
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return emmergenome;
+	}
+
+	/*public void setVatLeeg(boolean vatLeeg) {
+		this.vatLeeg = vatLeeg;
+	}*/
+	
+	public void vatIsLeeg() {
+		try {
+			emmerbuffer.put(false);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			Thread.currentThread().interrupt();
+		}
+	}
+
+}

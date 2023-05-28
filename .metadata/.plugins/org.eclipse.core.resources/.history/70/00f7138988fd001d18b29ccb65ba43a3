@@ -1,0 +1,23 @@
+package domein;
+
+import java.util.List;
+
+public class DinerIterator implements Iterator {
+
+	private MenuItem[] children;
+	private int pointer = 0;
+	
+	@Override
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Object next() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
+}

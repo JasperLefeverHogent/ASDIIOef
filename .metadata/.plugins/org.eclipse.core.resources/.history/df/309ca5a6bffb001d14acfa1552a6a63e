@@ -1,0 +1,32 @@
+package domein;
+
+import java.beans.PropertyChangeListener;
+import java.util.List;
+import java.util.concurrent.ExecutionException;
+
+public class DomeinController {
+	
+	private GatherResult<String> gatherResult = new GatherResult<>();
+
+	public void runJobs() {
+		List<Job> jobs = List.of(new JobA(), new JobB(), new JobC());
+		
+		//TODO
+		//List<    > futureList =  jobs.
+		    
+		
+		futureList.stream()
+			.forEach( future -> {
+				try {
+					gatherResult.addResult(  //TODO
+							              );
+				} catch (InterruptedException | ExecutionException e) {
+					e.printStackTrace();
+				}
+			});
+	}
+
+	public void addObserver(PropertyChangeListener pcl) {
+		gatherResult.addObserver(pcl);
+	}
+}

@@ -1,0 +1,8 @@
+package domein;
+
+public class WinLabel extends Label {
+
+	public void show() {
+		throw new UnsupportedOperationException();
+	}
+}

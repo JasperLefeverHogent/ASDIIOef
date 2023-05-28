@@ -1,0 +1,19 @@
+package domein;
+
+import java.util.Iterator;
+
+public class PancakeMenuIterator implements Iterator<MenuItem> {
+
+	@Override
+	public boolean hasNext() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public MenuItem next() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

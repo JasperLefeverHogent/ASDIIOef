@@ -1,0 +1,27 @@
+package domein;
+
+
+public class DinerIterator implements Iterator {
+
+	private MenuItem[] children;
+	private int pointer = 0;
+	
+	public DinerIterator(MenuItem[] list) {
+		this.children = list;
+	}
+	
+	
+	@Override
+	public boolean hasNext() {
+		return (pointer < children.length && children[pointer] != null);
+	}
+
+	@Override
+	public Object next() {
+		MenuItem item = children[pointer];
+		pointer += 1;
+		return null;
+	}
+
+
+}

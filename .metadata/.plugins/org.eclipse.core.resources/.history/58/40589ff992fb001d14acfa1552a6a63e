@@ -1,0 +1,20 @@
+package domein;
+
+import java.security.SecureRandom;
+
+public class Kelner implements Runnable {
+
+	private static final SecureRandom sr = new SecureRandom();
+	
+	
+	public Kelner(Restaurant restaurant, String naam) {
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

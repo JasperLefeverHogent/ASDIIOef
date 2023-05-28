@@ -1,0 +1,19 @@
+package domein;
+
+public class Kok implements Runnable {
+
+	
+	private Restaurant restaurant;
+	
+	public Kok(Restaurant restaurant) {
+		this.restaurant = restaurant;
+	
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

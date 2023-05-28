@@ -1,0 +1,15 @@
+package domein;
+
+public class Kelner implements Runnable {
+
+	public Kelner(Restaurant restaurant, String naam) {
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package domein;
+
+public class MacCompFact implements ComponentFactory {
+
+	public Button createButton() {
+		throw new UnsupportedOperationException();
+	}
+
+	public Label createLabel() {
+		throw new UnsupportedOperationException();
+	}
+}

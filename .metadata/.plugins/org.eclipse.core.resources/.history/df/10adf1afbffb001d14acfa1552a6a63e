@@ -1,0 +1,8 @@
+package domein;
+
+//TODO
+public abstract class Job {
+	
+	public abstract String execute();
+	
+}

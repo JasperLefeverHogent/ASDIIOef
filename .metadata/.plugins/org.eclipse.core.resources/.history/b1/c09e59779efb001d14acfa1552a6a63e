@@ -1,0 +1,43 @@
+package domein;
+import java.security.SecureRandom;
+import java.util.concurrent.ArrayBlockingQueue;
+
+// VUL DE KLASSE VERDER AAN
+public class Tafel{
+
+    private static final SecureRandom generator = new SecureRandom();
+    private boolean vatLeeg = false;
+    private ArrayBlockingQueue<Boolean> emmerbuffer;
+
+    public Tafel(int aantalEmmers) {
+    	emmerbuffer = new ArrayBlockingQueue<>(aantalEmmers);
+    }
+
+    public void vulEmmer() {
+    	try {
+    		Thread.sleep(1000);
+			emmerbuffer.put(true);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+			Thread.currentThread().interrupt();
+		}
+    }
+
+    public boolean pakEmmer() {
+    	boolean emmergenome = false;
+    	Boolean value;
+    	try {
+			do {
+				value = emmerbuffer.poll();
+			} while (emmergenome);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+    }
+
+    public void setVatLeeg(boolean vatLeeg) {
+        this.vatLeeg = vatLeeg;
+    }
+
+
+}

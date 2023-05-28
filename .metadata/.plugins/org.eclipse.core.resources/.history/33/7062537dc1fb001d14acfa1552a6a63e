@@ -1,0 +1,11 @@
+package domein;
+
+public class ReportJob implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+package domein;
+
+public class MacLabel extends Label {
+
+	public void show() {
+		throw new UnsupportedOperationException();
+	}
+}
