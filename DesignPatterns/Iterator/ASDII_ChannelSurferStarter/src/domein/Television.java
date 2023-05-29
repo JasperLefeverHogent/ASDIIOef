@@ -2,21 +2,18 @@ package domein;
 
 public class Television {
 
-    //TODO attributes
-
-
+    private Iterator iterator;
+    
     public Television(int maxChannel) {
-        //TODO
+        iterator = new ChannelIterator(maxChannel);
     }
 
     public Program getNextProgram() {
-        //TODO
-        return null;
+    	return iterator.nextChannel().getCurrentProgram();
     }
 
     public Program getPrevProgram() {
-        //TODO
-        return null;
+    	return iterator.prevChannel().getCurrentProgram();
     }
 
 }

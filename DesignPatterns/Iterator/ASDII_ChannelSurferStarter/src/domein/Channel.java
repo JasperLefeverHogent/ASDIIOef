@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Channel {
 
-    private final int numberChannel;
+    private int numberChannel;
 
     public Channel(int number) {
         this.numberChannel = number;

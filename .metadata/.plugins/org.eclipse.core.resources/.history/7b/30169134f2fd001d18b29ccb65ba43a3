@@ -1,0 +1,27 @@
+package domein;
+
+public class ChannelIterator implements Iterator {
+	
+	private int maxChannels;
+	private int pointer = 0;
+	
+	public ChannelIterator(int maxChannels) {
+		this.maxChannels = maxChannels;
+	}
+
+	public Channel nextChannel() {
+		throw new UnsupportedOperationException();
+	}
+
+	public Channel prevChannel() {
+		throw new UnsupportedOperationException();
+	}
+
+	public boolean hasNext() {
+		throw new UnsupportedOperationException();
+	}
+
+	public boolean hasPrev() {
+		throw new UnsupportedOperationException();
+	}
+}

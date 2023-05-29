@@ -4,15 +4,15 @@ import java.util.Date;
 
 public class Program {
 
-    private final Channel channel;
-    private final Date date;
+	private Channel channel;
+	private Date date;
 
-    public Program(Date date, Channel channel) {
-        this.date= date;
-        this.channel = channel;
-    }
+	public Program(Date date, Channel channel) {
+		this.date = date;
+		this.channel = channel;
+	}
 
-    public int getNrChannel() {
-        return channel.getNumberChannel();
-    }
+	public int getNrChannel() {
+		return channel.getNumberChannel();
+	}
 }

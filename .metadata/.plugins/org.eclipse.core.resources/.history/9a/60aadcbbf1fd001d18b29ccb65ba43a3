@@ -1,0 +1,24 @@
+package domein;
+
+public class Television {
+
+    private Channel[] channels;
+    private Iterator iterator;
+    
+    
+    
+    public Television(int maxChannel) {
+        iterator = new ChannelIterator(maxChannel);
+    }
+
+    public Program getNextProgram() {
+        //TODO
+        return null;
+    }
+
+    public Program getPrevProgram() {
+        //TODO
+        return null;
+    }
+
+}

@@ -1,0 +1,20 @@
+package domein;
+
+public class ChannelIterator implements Iterator {
+
+	public Channel nextChannel() {
+		throw new UnsupportedOperationException();
+	}
+
+	public Channel prevChannel() {
+		throw new UnsupportedOperationException();
+	}
+
+	public boolean hasNext() {
+		throw new UnsupportedOperationException();
+	}
+
+	public boolean hasPrev() {
+		throw new UnsupportedOperationException();
+	}
+}

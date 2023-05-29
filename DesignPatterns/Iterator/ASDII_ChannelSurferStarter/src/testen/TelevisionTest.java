@@ -3,9 +3,11 @@ package testen;
 import domein.Program;
 import domein.Television;
 
+import org.junit.Before;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import domein.*;
 
 public class TelevisionTest {
 
@@ -13,7 +15,7 @@ public class TelevisionTest {
     private final int MAX = 5;
 
     @BeforeEach
-    public void before() {
+	public void before() {
         television = new Television(MAX);
     }
 
