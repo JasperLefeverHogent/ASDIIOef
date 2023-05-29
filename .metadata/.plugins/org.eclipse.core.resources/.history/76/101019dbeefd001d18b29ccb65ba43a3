@@ -1,0 +1,27 @@
+package domein;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.*;
+
+public class Diagram  {
+
+	private Collection<Graphic> graphics;
+
+	public void draw() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void add(Graphic g) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void remove(Graphic g) {
+		throw new UnsupportedOperationException();
+	}
+
+	public void getChildren() {
+		throw new UnsupportedOperationException();
+	}
+//TODO
+}
