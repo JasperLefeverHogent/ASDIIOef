@@ -1,0 +1,22 @@
+package domein;
+
+public class MenuDirector {
+
+	private Builder builder;
+
+
+	public Menu get() {
+		return builder.getMenu();
+	}
+
+	public MenuDirector(Builder builder) {
+		this.builder = builder;
+	}
+
+	public void build() {
+		builder.createNewMenu();
+		builder.addDrink();
+		builder.addMainCourse();
+		builder.addSide();
+	}
+}

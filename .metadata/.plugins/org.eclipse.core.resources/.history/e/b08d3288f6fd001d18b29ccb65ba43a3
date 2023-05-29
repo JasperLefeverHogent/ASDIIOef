@@ -1,0 +1,18 @@
+package domein;
+
+public class MenuDirector {
+
+	private Builder builder;
+
+	public void build() {
+		throw new UnsupportedOperationException();
+	}
+
+	public Menu get() {
+		throw new UnsupportedOperationException();
+	}
+
+	public MenuDirector(Builder builder) {
+		throw new UnsupportedOperationException();
+	}
+}

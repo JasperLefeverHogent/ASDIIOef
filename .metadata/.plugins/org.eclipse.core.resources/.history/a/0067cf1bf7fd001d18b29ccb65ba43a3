@@ -1,0 +1,16 @@
+package domein;
+
+public class ItalianBuilder extends Builder {
+
+	public void addDrink() {
+		getMenu().setDrink("French Wine");
+	}
+
+	public void addMainCourse() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void addSide() {
+		throw new UnsupportedOperationException();
+	}
+}

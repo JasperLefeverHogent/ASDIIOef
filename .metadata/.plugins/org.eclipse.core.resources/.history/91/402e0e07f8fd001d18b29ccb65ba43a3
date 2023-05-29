@@ -1,0 +1,26 @@
+package mealapp;
+
+import domein.Builder;
+import domein.ItalianBuilder;
+import domein.JapanBuilder;
+
+public class MealApp {
+
+   /**
+ * @param args  the command line arguments
+ */
+public static void main(String[] args) {
+      new MealApp();
+   }
+   
+   public MealApp() {
+       
+        Builder j = new JapanBuilder();
+        Builder i = new ItalianBuilder();
+        //System.out.printf("menu is: %s%n",                        );
+        
+        //System.out.printf("menu is: %s%n",                        );
+    }
+
+   
+}

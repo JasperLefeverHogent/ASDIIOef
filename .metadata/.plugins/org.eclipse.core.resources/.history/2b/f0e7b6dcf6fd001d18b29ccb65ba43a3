@@ -1,0 +1,12 @@
+package domein;
+
+public abstract class Builder {
+
+	public abstract Menu getMenu();
+
+	public abstract void addDrink();
+
+	public abstract void addMainCourse();
+
+	public abstract void addSide();
+}

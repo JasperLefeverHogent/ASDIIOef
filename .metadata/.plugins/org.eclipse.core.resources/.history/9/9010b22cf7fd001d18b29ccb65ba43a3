@@ -1,0 +1,16 @@
+package domein;
+
+public class JapanBuilder extends Builder {
+
+	public void addDrink() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void addMainCourse() {
+		throw new UnsupportedOperationException();
+	}
+
+	public void addSide() {
+		throw new UnsupportedOperationException();
+	}
+}
