@@ -1,0 +1,15 @@
+package domein;
+
+
+public class Calculator implements TargetLong{
+	
+	private TargetDouble adaptee;
+	@Override
+	public long add() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+
+}

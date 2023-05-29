@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NickNames projectID="YJJ9eVqGAqACBH5z" projectPath="C:\Users\jaspe\Documents\TI2S2\Advanced Software Development II\VoorbereidingExamen\DesignPatterns\Builder\ASDII_MealAppStarter\vpproject\ASDII_MealAppStarter.vpp" selectedNickName="Realname"/>

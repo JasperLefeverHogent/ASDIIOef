@@ -6,5 +6,10 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/jaspe/Documents/TI2S2/Advanced Software Development II/VoorbereidingExamen/DesignPatterns/Adapter/ASDII_AdapterCalculatorStarter/externeLibrary/ASDII_Adapteroef2Library.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

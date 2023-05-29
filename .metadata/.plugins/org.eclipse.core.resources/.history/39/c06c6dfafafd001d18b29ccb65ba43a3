@@ -1,0 +1,12 @@
+package domein;
+
+import java.util.Iterator;
+
+public class TargetLong implements Calculator {
+
+	@Override
+	public long add() {
+		return 0;
+	}
+
+}

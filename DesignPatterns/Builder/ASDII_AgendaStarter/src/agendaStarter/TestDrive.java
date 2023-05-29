@@ -1,7 +1,13 @@
 package agendaStarter;
 
 import domein.Appointment;
+import domein.AppointmentBuilder;
 import domein.Contact;
+import domein.Location;
+import domein.MeetingBuilder;
+import domein.Scheduler;
+import exception.InformationRequiredException;
+
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -19,6 +25,8 @@ public class TestDrive {
     private Appointment appt;
     //TODO attribut(en) voor aanmaak van een appointment
     //
+    
+    private Scheduler scheduler = new Scheduler();
    
     
     //
@@ -49,8 +57,9 @@ public class TestDrive {
         //Beschrijving = "Project Demo"
         //uitgenodigden = createAttendees(4)
         
-            
-                   
+         try {
+             appt = scheduler.createAppointment(new AppointmentBuilder(), LocalDateTime.of(2022, 7, 22, 12, 30)
+            		 , null, "Project Demo", createAttendees(4), new Location("Hogeschool Gent, D2.014"));      
             
         //Afdruk resultaat
             System.out.println("Successfully created an Appointment.");
@@ -58,7 +67,10 @@ public class TestDrive {
             System.out.println(appt);
             System.out.println();
         //vervolg...(als fouten)
-       
+         } catch (InformationRequiredException ex) {
+			// TODO: handle exception
+        	 printExceptions(ex);
+		}
    
 
         System.out.println("Creating a meeting : enddate is missing");
@@ -68,17 +80,21 @@ public class TestDrive {
         //Locatie = new Location("Hogeschool Gent, B3.020")
         //Beschrijving = "OOO III"
         //uitgenodigden = createAttendees(4)
-        
-        
+        try {
+        appt = scheduler.createAppointment(new MeetingBuilder(), LocalDateTime.of(2022, 3, 21, 12, 30), null,
+        		"OOO III",createAttendees(4), new Location("Hogeschool Gent, B3.020"));
            
                     
-            
        //Afdruk resultaat (zal falen)
             System.out.println("Successfully created an Appointment.");
             System.out.println("Appointment information:");
             System.out.println(appt);
             System.out.println();
        //vervolg... (als fouten)
+        }catch (InformationRequiredException ex) {
+			// TODO: handle exception
+       	 printExceptions(ex);
+		}
        
        
 
@@ -93,7 +109,11 @@ public class TestDrive {
         //uitgenodigden = createAttendees(2)
 
         
-            
+           try {
+        	   
+        	   appt = scheduler.createAppointment(new MeetingBuilder(), LocalDateTime.of(2022, 4, 1, 10, 00),
+        			   LocalDateTime.of(2022, 4, 1, 11, 30), "Project II Meeting",
+        			   createAttendees(2) ,new Location("Hogeschool Gent, B1.032"));
                 
                     
             
@@ -103,7 +123,11 @@ public class TestDrive {
             System.out.println(appt);
             System.out.println();
         //vervolg...(als fouten)
-       
+           } 
+           catch (InformationRequiredException ex) {
+   			// TODO: handle exception
+          	 printExceptions(ex);
+  		  }
     
         
         //
@@ -113,7 +137,11 @@ public class TestDrive {
     //
     //public void print...
         
-
+    private void printExceptions(InformationRequiredException ex) {
+    	System.out.println(ex.getMessage());
+    	ex.getInformationRequired().forEach(System.out::println);
+    	System.out.println();
+    }
         
         
             

@@ -1,0 +1,7 @@
+package domein;
+
+public class Calculator implements TargetLong{
+	
+	public long add();
+
+}

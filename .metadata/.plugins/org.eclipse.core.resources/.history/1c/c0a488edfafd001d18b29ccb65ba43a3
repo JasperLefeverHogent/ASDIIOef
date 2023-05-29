@@ -1,0 +1,13 @@
+package domein;
+
+import java.util.Iterator;
+
+public class TargetLong implements Calculator {
+
+	@Override
+	public long add() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
